@@ -129,6 +129,147 @@ img{
     background-size: cover;
 }
 
+.mv__textArea{
+    color: #fff;
+    text-align: center;
+}
+
 .mv__title {
-    
+    font-size: 160px;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 0 4px 6px rgb(0 0 0 / 25%)
+    margin-bottom: 10px;
+}
+
+.mv__subtitle{
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+}
+
+.news__inner{
+    display: flex;
+    column-gap: 90px;
+}
+
+.news__body{
+    flex: 1;
+}
+
+.news-list__link{
+    display: flex;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.news-list__link:hover{
+    color: var(--main-color);
+}
+
+.news-list__item{
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #EDEDED;
+}
+
+.news-list__item:last-child{
+    margin-bottom: 0;
+}
+
+.news-list__date{
+    margin-right: 40px;
+}
+
+.service__heading{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.service__heading::before{
+    display: block;
+    content:"SERVICE";
+    position: absolute;
+    font-size: 168px;
+    font-weight: bold;
+    color:#F2F2F2;
+    top:-40px;
+    right: -20px;
+    z-index: -1;
+    line-height: 1;
+}
+
+.service-list{
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.service-list__item{
+    padding: 50px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px 21px rgba(0, 0, 0, 0.16);
+}
+
+.service-list__img-wrapper{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.service-list__img{
+    font-size: 48px;
+    color: var(--main-color);
+    vertical-align: bottom;
+}
+
+
+.service-list__body{
+    text-align: center;
+}
+.servce-list__title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service-list__text{
+    font-size:14px;
+    line-height: 1.7;
+    margin-top: 15px;
+}
+
+.footer{
+   color:#fff;
+   background-color: var(--main-color);
+   padding: 60px 20px 50px;
+}
+
+.footer-nav{
+   margin-bottom: 20px;
+}
+
+.footer-nav__list{
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer-nav__item{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.05em;
+}
+
+
+.footer-nav__link{
+    color:var(--text-color);
+    color:#fff;
+    text-decoration: none;
+} 
+
+.footer-copyright{
+    font-size: 12px;
+    letter-spacing: 0.03em;
 }
