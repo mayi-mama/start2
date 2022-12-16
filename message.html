@@ -17,25 +17,27 @@
     <body>
         <div class="wrapper">
             <header class="header">
-                <div class="header-logo">
+                <div class="header__logo">
                     <img src="img/logo.svg" alt="START">
                 </div>
-                <nav class="gnav">
-                    <ul class="gnav__list">
-                        <li class="gnav__item">
-                            <a href="#" class="gnav__link gnav__link--active">ホーム</a>
-                        </li>
-                        <li class="gnav__item">
-                            <a href="#" class="gnav__link gnav__link--active">メッセージ</a>
-                        </li>
-                        <li class="gnav__item">
-                            <a href="#" class="gnav__link gnav__link--active">会社概要</a>
-                        </li>
-                    </ul>
-                </nav>
-                <button type="button" id="js-btn-menu" class="btn-menu">
-                    <span class="btn-menu__line"></span>
-                </button>
+                <div class="header__nav">
+                    <nav class="gnav">
+                        <ul class="gnav__list">
+                            <li class="gnav__item">
+                                <a href="#" class="gnav__link gnav__link--active">ホーム</a>
+                            </li>
+                            <li class="gnav__item">
+                                <a href="#" class="gnav__link gnav__link--active">メッセージ</a>
+                            </li>
+                            <li class="gnav__item">
+                                <a href="#" class="gnav__link gnav__link--active">会社概要</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button type="button" id="js-btn-menu" class="btn-menu">
+                        <span class="btn-menu__line"></span>
+                    </button>
+                </div>
             </header>
             <div class="page-header">
                 <div class="page-header__textArea">
@@ -65,7 +67,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </<div>
                 </section>
                 <div class="office">
                     <div class="container">
@@ -92,7 +94,7 @@
                 </div>
             </footer>
         </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
     </body>
 </html>
